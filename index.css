@@ -1,0 +1,26 @@
+h1{
+color: antiquewhite;
+}
+body{
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+/* لون المسار نفسه */
+::-webkit-scrollbar-track{
+  background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 255, 0.199);
+  height: 2rem;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: blue;
+}
+/* 
+لو عايزه اخلي الاسكرول تبع مجموعة معينه بشكل مختلف 
+div::-webkit-scrollbar{
+    width: 20px;
+} 
+*/
